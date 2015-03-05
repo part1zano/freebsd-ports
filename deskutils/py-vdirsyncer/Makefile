@@ -17,7 +17,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}click>=3.2:${PORTSDIR}/devel/py-click \
 	${PYTHON_PKGNAMEPREFIX}lxml>=3.0:${PORTSDIR}/devel/py-lxml \
 	${PYTHON_PKGNAMEPREFIX}icalendar>=3.6:${PORTSDIR}/devel/py-icalendar \
 	${PYTHON_PKGNAMEPREFIX}requests-toolbelt:${PORTSDIR}/www/py-requests-toolbelt \
-	${PYTHON_PKGNAME_PREFIX}atomicwrites:${PORTSDIR}/devel/atomicwrites
+	${PYTHON_PKGNAME_PREFIX}atomicwrites:${PORTSDIR}/devel/py-atomicwrites
 
 USES=		python
 USE_PYTHON=	autoplist distutils
