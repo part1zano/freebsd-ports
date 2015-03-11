@@ -1,5 +1,0 @@
-lxml
-vobject
-requests
-urwid
-pyxdg
