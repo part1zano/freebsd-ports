@@ -10,7 +10,6 @@ MAINTAINER=	che@bein.link
 COMMENT=	Python implementation of 'git up'
 
 LICENSE=	MIT
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pygit2>=0.21.1:${PORTSDIR}/devel/py-pygit2 \
 	${PYTHON_PKGNAMEPREFIX}colorama>=0.3.2:${PORTSDIR}/devel/py-colorama \
