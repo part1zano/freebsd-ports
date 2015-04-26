@@ -1,0 +1,23 @@
+--- Makefile.in.orig	2013-09-03 22:30:43.000000000 +0400
++++ Makefile.in	2013-11-06 11:06:18.000000000 +0400
+@@ -287,15 +287,15 @@
+ 
+ install: install_myrulib
+ 	$(INSTALL) -d $(DESTDIR)$(datadir)/locale/ru/LC_MESSAGES
+-	(cd . ; $(INSTALL) -m 644 -T ru.mo $(DESTDIR)$(datadir)/locale/ru/LC_MESSAGES/myrulib.mo)
++	(cd . ; $(INSTALL) -m 644 ru.mo $(DESTDIR)$(datadir)/locale/ru/LC_MESSAGES/myrulib.mo)
+ 	$(INSTALL) -d $(DESTDIR)$(datadir)/locale/uk/LC_MESSAGES
+-	(cd . ; $(INSTALL) -m 644 -T uk.mo $(DESTDIR)$(datadir)/locale/uk/LC_MESSAGES/myrulib.mo)
++	(cd . ; $(INSTALL) -m 644 uk.mo $(DESTDIR)$(datadir)/locale/uk/LC_MESSAGES/myrulib.mo)
+ 	$(INSTALL) -d $(DESTDIR)$(datadir)/locale/be/LC_MESSAGES
+-	(cd . ; $(INSTALL) -m 644 -T be.mo $(DESTDIR)$(datadir)/locale/be/LC_MESSAGES/myrulib.mo)
++	(cd . ; $(INSTALL) -m 644 be.mo $(DESTDIR)$(datadir)/locale/be/LC_MESSAGES/myrulib.mo)
+ 	$(INSTALL) -d $(DESTDIR)$(datadir)/locale/cs/LC_MESSAGES
+-	(cd . ; $(INSTALL) -m 644 -T cs.mo $(DESTDIR)$(datadir)/locale/cs/LC_MESSAGES/myrulib.mo)
++	(cd . ; $(INSTALL) -m 644 cs.mo $(DESTDIR)$(datadir)/locale/cs/LC_MESSAGES/myrulib.mo)
+ 	$(INSTALL) -d $(DESTDIR)$(datadir)/locale/sv/LC_MESSAGES
+-	(cd . ; $(INSTALL) -m 644 -T sv.mo $(DESTDIR)$(datadir)/locale/sv/LC_MESSAGES/myrulib.mo)
++	(cd . ; $(INSTALL) -m 644 sv.mo $(DESTDIR)$(datadir)/locale/sv/LC_MESSAGES/myrulib.mo)
+ 	$(INSTALL_DIR) $(DESTDIR)$(datadir)/icons/hicolor/48x48/apps
+ 	(cd $(srcdir)/sources/MyRuLib/desktop ; $(INSTALL_DATA)  myrulib.png $(DESTDIR)$(datadir)/icons/hicolor/48x48/apps)
+ 	$(INSTALL_DIR) $(DESTDIR)$(datadir)/applications
