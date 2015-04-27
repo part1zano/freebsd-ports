@@ -9,5 +9,3 @@ share/applications/myrulib.desktop
 share/pixmaps/myrulib.png
 @dirrmtry share/icons/hicolor/48x48/apps
 @dirrmtry share/pixmaps
-@exec %%LOCALBASE%%/bin/update-desktop-database || /usr/bin/true
-@unexec %%LOCALBASE%%/bin/update-desktop-database || /usr/bin/true
