@@ -1,6 +1,14 @@
---- Makefile.in.orig	2013-09-03 22:30:43.000000000 +0400
-+++ Makefile.in	2013-11-06 11:06:18.000000000 +0400
-@@ -287,15 +287,15 @@
+--- Makefile.in.orig	2013-09-03 18:30:43 UTC
++++ Makefile.in
+@@ -34,6 +34,7 @@ CXX = @CXX@
+ CFLAGS = @CFLAGS@
+ CXXFLAGS = @CXXFLAGS@
+ CPPFLAGS = @CPPFLAGS@
++GCC = gcc48
+ LDFLAGS = @LDFLAGS@
+ STRIP_COMMAND = @STRIP_COMMAND@
+ WX_CFLAGS = @WX_CFLAGS@
+@@ -287,15 +288,15 @@ all: $(__mrl_bzip2___depname) $(__mrl_ex
  
  install: install_myrulib
  	$(INSTALL) -d $(DESTDIR)$(datadir)/locale/ru/LC_MESSAGES
@@ -21,3 +29,12 @@
  	$(INSTALL_DIR) $(DESTDIR)$(datadir)/icons/hicolor/48x48/apps
  	(cd $(srcdir)/sources/MyRuLib/desktop ; $(INSTALL_DATA)  myrulib.png $(DESTDIR)$(datadir)/icons/hicolor/48x48/apps)
  	$(INSTALL_DIR) $(DESTDIR)$(datadir)/applications
+@@ -386,7 +387,7 @@ zipscan$(EXEEXT): $(ZIPSCAN_OBJECTS) $(_
+ 	$(__zipscan___mac_setfilecmd)
+ 
+ bin2c: $(srcdir)/3rdparty/bin2c/bin2c.c
+-	gcc -o $@ $(srcdir)/3rdparty/bin2c/bin2c.c
++	${GCC} -o $@ $(srcdir)/3rdparty/bin2c/bin2c.c
+ 
+ ru.mo: $(srcdir)/sources/MyRuLib/locale/ru.po
+ 	msgfmt $(srcdir)/sources/MyRuLib/locale/ru.po -o ./ru.mo
