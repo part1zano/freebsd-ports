@@ -19,6 +19,6 @@ GNU_CONFIGURE=	yes
 USES+=		gettext desktop-file-utils tar:bzip2
 INSTALLS_ICONS=	yes
 
-BUILD_DEPENDS=	${LOCALBASE}/gcc48:${PORTSDIR}/lang/gcc48
+BUILD_DEPENDS=	${LOCALBASE}/gcc48:${PORTSDIR}/lang/gcc
 
 .include <bsd.port.mk>
