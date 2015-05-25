@@ -20,4 +20,7 @@ TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}nose>=1.3.4:${PORTSDIR}/devel/py-nose \
 USES=		python
 USE_PYTHON=	autoplist distutils
 
+test: build
+	cd ${WRKSRC} && python -m nose
+
 .include <bsd.port.mk>
