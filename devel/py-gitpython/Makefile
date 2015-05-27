@@ -20,7 +20,7 @@ TEST_DEPENDS+=	${RUN_DEPENDS}
 USES=		python
 USE_PYTHON=	autoplist distutils
 
-test: build
+regression-test: build
 	cd ${WRKSRC} && ${PYTHON_CMD} -m nose
 
 .include <bsd.port.mk>
