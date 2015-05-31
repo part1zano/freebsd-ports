@@ -14,8 +14,8 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}gitdb>=0.6.4:${PORTSDIR}/devel/py-gitdb
 TEST_DEPENDS=	${PYTHON_PKGNAMEPREFIX}nose>=0:${PORTSDIR}/devel/py-nose \
-	${PYTHON_PKGNAMEPREFIX}mock>=0:${PORTSDIR}/devel/py-mock
-TEST_DEPENDS+=	${RUN_DEPENDS}
+	${PYTHON_PKGNAMEPREFIX}mock>=0:${PORTSDIR}/devel/py-mock \
+	${PYTHON_PKGNAMEPREFIX}gitdb>=0.6.4:${PORTSDIR}/devel/py-gitdb
 
 USES=		python
 USE_PYTHON=	autoplist distutils
