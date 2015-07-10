@@ -22,7 +22,13 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}click>=3.2:${PORTSDIR}/devel/py-click \
 	${PYTHON_PKGNAMEPREFIX}tzlocal>=1.0:${PORTSDIR}/devel/py-tzlocal \
 	${PYTHON_PKGNAMEPREFIX}vdirsyncer>=0.4.3:${PORTSDIR}/deskutils/py-vdirsyncer
 
+PLIST_FILES+=	share/zsh/site-functions/__khal
+
 USES=		python
 USE_PYTHON=	autoplist distutils
+
+post-install:
+	${MKDIR} ${STAGEDIR}${PREFIX}/share/zsh/site-functions
+	${INSTALL_DATA} ${WRKSRC}/misc/__khal ${STAGEDIR}${PREFIX}/share/zsh/site-functions
 
 .include <bsd.port.mk>
