@@ -1,4 +1,5 @@
-# $FreeBSD$
+# Created by: che@bein.link
+# $FreeBSD: head/deskutils/py-khal/Makefile 381062 2015-03-12 08:30:12Z vanilla $
 
 PORTNAME=	khal
 PORTVERSION=	0.6.0
