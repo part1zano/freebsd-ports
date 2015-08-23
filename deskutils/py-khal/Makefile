@@ -21,7 +21,8 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}click>=3.2:${PORTSDIR}/devel/py-click \
 	${PYTHON_PKGNAMEPREFIX}configobj>=5.0.6:${PORTSDIR}/devel/py-configobj \
 	${PYTHON_PKGNAMEPREFIX}tzlocal>=1.0:${PORTSDIR}/devel/py-tzlocal \
 	${PYTHON_PKGNAMEPREFIX}vdirsyncer>=0.4.3:${PORTSDIR}/deskutils/py-vdirsyncer \
-	${PYTHON_PKGNAMEPREFIX}sqlite3>0:${PORTSDIR}/databases/py-sqlite3
+	${PYTHON_PKGNAMEPREFIX}sqlite3>0:${PORTSDIR}/databases/py-sqlite3 \
+	${PYTHON_PGKNAMEPREFIX}pkginfo>0:${PORTSDIR}/sysutils/py-pkginfo
 
 PLIST_FILES+=	share/zsh/site-functions/__khal
 
