@@ -1,5 +1,5 @@
---- plugins/midi_import/portsmf/allegrord.cpp	2011-07-02 13:14:01.000000000 +0000
-+++ plugins/midi_import/portsmf/allegrord.cpp.new	2011-09-30 11:37:34.000000000 +0000
+--- plugins/MidiImport/portsmf/allegrord.cpp	2011-07-02 13:14:01.000000000 +0000
++++ plugins/MidiImport/portsmf/allegrord.cpp.new	2011-09-30 11:37:34.000000000 +0000
 @@ -109,19 +109,19 @@
      if (attributes) {
          Alg_parameters_ptr a;

@@ -1,5 +1,5 @@
---- plugins/midi_import/portsmf/allegrosmfrd.cpp	2011-07-02 13:14:01.000000000 +0000
-+++ plugins/midi_import/portsmf/allegrosmfrd.cpp.new	2011-09-30 21:07:19.000000000 +0000
+--- plugins/MidiImport/portsmf/allegrosmfrd.cpp	2011-07-02 13:14:01.000000000 +0000
++++ plugins/MidiImport/portsmf/allegrosmfrd.cpp.new	2011-09-30 21:07:19.000000000 +0000
 @@ -327,7 +327,7 @@
  
  void Alg_midifile_reader::Mf_arbitrary(int len, char *msg)

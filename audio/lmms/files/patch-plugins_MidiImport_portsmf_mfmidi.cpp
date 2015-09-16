@@ -1,5 +1,5 @@
---- plugins/midi_import/portsmf/mfmidi.cpp.orig	2011-10-03 12:30:46.000000000 +0000
-+++ plugins/midi_import/portsmf/mfmidi.cpp	2011-10-03 12:30:46.000000000 +0000
+--- plugins/MidiImport/portsmf/mfmidi.cpp.orig	2011-10-03 12:30:46.000000000 +0000
++++ plugins/MidiImport/portsmf/mfmidi.cpp	2011-10-03 12:30:46.000000000 +0000
 @@ -28,7 +28,7 @@
      ntrks = readheader();
      if (midifile_error) return;
