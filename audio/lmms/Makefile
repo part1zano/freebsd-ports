@@ -45,7 +45,7 @@ CMAKE_ARGS=	-DWANT_ALSA:BOOL=OFF \
 		-DWANT_VST:BOOL=OFF \
 		-DHAVE_STRTOLL=ON
 
-DOS2UNIX_FILES=	plugins/midi_import/portsmf/allegrowr.cpp plugins/midi_import/portsmf/mfmidi.cpp CMakeLists.txt
+DOS2UNIX_FILES=	plugins/MidiImport/portsmf/allegrowr.cpp plugins/MidiImport/portsmf/mfmidi.cpp CMakeLists.txt
 
 JACK_LIB_DEPENDS=	libjack.so:${PORTSDIR}/audio/jack
 JACK_CMAKE_OFF=		-DWANT_JACK:BOOL=OFF
