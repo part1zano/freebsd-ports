@@ -2,8 +2,7 @@
 # $FreeBSD: head/java/eclipse-pydev/Makefile 400848 2015-11-05 12:36:25Z mat $
 
 PORTNAME=	pydev
-PORTVERSION=	3.5.0
-PORTREVISION=	1
+PORTVERSION=	3.6.0
 CATEGORIES=	java devel python
 MASTER_SITES=	SF/${PORTNAME}/${PORTNAME}/PyDev%20${PORTVERSION}/
 PKGNAMEPREFIX=	eclipse-
