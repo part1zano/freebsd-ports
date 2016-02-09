@@ -1,7 +1,7 @@
 # $FreeBSD: head/deskutils/py-vdirsyncer/Makefile 380909 2015-03-10 11:48:38Z robak $
 
 PORTNAME=	vdirsyncer
-PORTVERSION=	0.4.3
+PORTVERSION=	0.8.1
 CATEGORIES=	deskutils python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
