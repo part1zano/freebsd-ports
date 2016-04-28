@@ -1,3 +1,3 @@
-A Python PCRE library
+pyvalid is a Python validation tool for checking of input function parameters and return values.
 
-WWW: https://github.com/awahlig/python-pcre
+WWW: https://pypi.python.org/pypi/pyvalid
