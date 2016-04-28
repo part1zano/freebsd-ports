@@ -1,28 +1,19 @@
 # $FreeBSD$
 
-PORTNAME=		pcre
-PORTVERSION=	0.5
-CATEGORIES=		devel python
+PORTNAME=	pyvalid
+PORTVERSION=	0.9
+CATEGORIES=	devel python
+MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
-DISTNAME=		python-pcre
 
-MAINTAINER=		che@bein.link
-COMMENT=		PCRE (Perl-Compatible Regular Expressions) for Python
+MAINTAINER=	che@bein.link
+COMMENT=	Python validation tool
 
-LICENSE=		BSD3CLAUSE
-LICENSE_FILE=	${WRKSRC}/LICENCE
+# LICENSE=	BSD
 
-RUN_DEPENDS=	pcre>=6.0:${PORTSDIR}/devel/pcre
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}six>=1.8.0:${PORTSDIR}/devel/py-six
 
-USE_GITHUB=		yes
-GH_ACCOUNT=		awahlig
-GH_PROJECT=		${DISTNAME}
-GH_COMMIT=		1efa30c
-GH_TAGNAME=		${GH_COMMIT}
-
-USES=			python
-USE_PYTHON=		autoplist distutils
-
-CFLAGS+=		-I${LOCALBASE}/include
+USES=		python
+USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>
