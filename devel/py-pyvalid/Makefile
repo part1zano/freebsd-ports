@@ -9,11 +9,12 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 MAINTAINER=	che@bein.link
 COMMENT=	Python validation tool
 
-# LICENSE=	BSD
+LICENSE=	BSD3CLAUSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}six>=1.8.0:${PORTSDIR}/devel/py-six
 
 USES=		python
 USE_PYTHON=	autoplist distutils
+
 
 .include <bsd.port.mk>
