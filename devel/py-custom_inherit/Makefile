@@ -10,7 +10,6 @@ MAINTAINER=	che@bein.link
 COMMENT=	Custom Docstring Inheritance Library
 
 LICENSE=	MIT
-LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USES=		python zip
 USE_PYTHON=	autoplist distutils
