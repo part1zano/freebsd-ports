@@ -1,0 +1,5 @@
+A Python package that provides customized docstring inheritance schemes between 
+derived classes and their parents.
+
+WWW: https://github.com/meowklaski/custom_inherit
+
