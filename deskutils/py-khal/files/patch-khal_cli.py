@@ -1,4 +1,4 @@
---- khal/cli.py.orig	2016-10-08 14:08:51 UTC
+--- khal/cli.py.orig	2016-10-06 17:02:45 UTC
 +++ khal/cli.py
 @@ -22,7 +22,7 @@
  import logging
