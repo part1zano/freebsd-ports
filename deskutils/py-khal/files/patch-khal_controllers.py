@@ -1,4 +1,4 @@
---- khal/controllers.py.orig	2016-10-08 14:12:08 UTC
+--- khal/controllers.py.orig	2016-10-06 17:03:00 UTC
 +++ khal/controllers.py
 @@ -24,7 +24,7 @@ import icalendar
  from click import confirm, echo, style, prompt
