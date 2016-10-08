@@ -23,7 +23,8 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}click>=3.2:devel/py-click \
 		${PYTHON_PKGNAMEPREFIX}tzlocal>=1.0:devel/py-tzlocal \
 		${PYTHON_PKGNAMEPREFIX}vdirsyncer>=0.4.3:deskutils/py-vdirsyncer \
 		${PYTHON_PKGNAMEPREFIX}sqlite3>0:databases/py-sqlite3 \
-		${PYTHON_PKGNAMEPREFIX}pkginfo>0:sysutils/py-pkginfo
+		${PYTHON_PKGNAMEPREFIX}pkginfo>0:sysutils/py-pkginfo \
+		${PYTHON_PKGNAMEPREFIX}backports.shutil_get_terminal_size>0:devel/py-backports.shutil_get_terminal_size
 
 USES=		python
 USE_PYTHON=	autoplist distutils
