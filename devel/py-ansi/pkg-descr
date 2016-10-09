@@ -1,0 +1,4 @@
+Various ANSI escape codes, used in moving the cursor in a text console or 
+rendering coloured text.
+
+WWW: https://pypi.python.org/pypi/ansi/0.1.3
