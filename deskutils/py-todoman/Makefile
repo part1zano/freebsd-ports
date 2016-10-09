@@ -10,14 +10,15 @@ MAINTAINER=	che@bein.link
 COMMENT=	CalDAV-based to-do list
 
 LICENSE=	MIT
-LICENSE_FILE=	${WRKSRC}/LICENSE
+LICENSE_FILE=	${WRKSRC}/LICENCE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}click>=6.0:devel/py-click \
 		${PYTHON_PKGNAMEPREFIX}icalendar>=3.8.2:devel/py-icalendar \
 		${PYTHON_PKGNAMEPREFIX}urwid>=1.2.1:devel/py-urwid \
 		${PYTHON_PKGNAMEPREFIX}xdg>=0.25:devel/py-xdg \
 		${PYTHON_PKGNAMEPREFIX}sqlite3>0:databases/py-sqlite3 \
-		${PYTHON_PKGNAMEPREFIX}parsedatetime>0:devel/py-parsedatetime
+		${PYTHON_PKGNAMEPREFIX}parsedatetime>0:devel/py-parsedatetime \
+		${PYTHON_PKGNAMEPREFIX}ansi>=0.1.3:devel/py-ansi
 
 USES=		python
 USE_PYTHON=	autoplist distutils
