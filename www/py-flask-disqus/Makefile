@@ -7,11 +7,11 @@ MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	che@bein.link
-COMMENT=	Flask extension that includes Bootstrap into your project
+COMMENT=	Flask extension that includes Disqus comments into your project
 
 LICENSE=	BSD3CLAUSE
 
-RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}Flask>=0.10.1:${PORTSDIR}/www/py-flask
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}Flask>=0.10.1:www/py-flask
 
 USES=		python:2
 USE_PYTHON=	autoplist distutils
