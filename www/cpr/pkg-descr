@@ -1,0 +1,4 @@
+C++ Requests is a simple wrapper around libcurl inspired by the excellent 
+Python Requests project.
+
+WWW: https://github.com/whoshuu/cpr

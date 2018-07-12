@@ -1,0 +1,9 @@
+TIMESTAMP = 1531423394
+SHA256 (whoshuu-cpr-1.3.0_GH0.tar.gz) = 82597627e8b2aef1f0482631c9b11595c63a7565bb462a5995d126da4419ac99
+SIZE (whoshuu-cpr-1.3.0_GH0.tar.gz) = 33594
+SHA256 (whoshuu-curl-3ea7679_GH0.tar.gz) = ec60a73e4b6f23ace8b85f2e7c871a86163f4166ed41439ca34a21047386f17e
+SIZE (whoshuu-curl-3ea7679_GH0.tar.gz) = 2691751
+SHA256 (whoshuu-googletest-3be1ef9_GH0.tar.gz) = 0a16b591bf078e8005ac62e156c2a5c55e46c536f04e89f08e581818ad045b48
+SIZE (whoshuu-googletest-3be1ef9_GH0.tar.gz) = 487746
+SHA256 (whoshuu-mongoose-df9f7a7_GH0.tar.gz) = 3bebbb71bf30a9524dba2a434087965e237c86018906dc2af4eaee8bc273b55f
+SIZE (whoshuu-mongoose-df9f7a7_GH0.tar.gz) = 114812
