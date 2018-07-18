@@ -21,7 +21,6 @@ GH_ACCOUNT=	whoshuu
 GH_PROJECT=	googletest:googletest mongoose:mongoose
 GH_TAGNAME=	${PORTVERSION} 3be1ef9:googletest df9f7a7:mongoose
 GH_SUBDIR=	opt/googletest:googletest opt/mongoose:mongoose
-# USE_LDCONFIG=lib
 
 INSTALL_TARGET=	all
 
