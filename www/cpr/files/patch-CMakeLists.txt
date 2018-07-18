@@ -1,0 +1,9 @@
+--- CMakeLists.txt.orig	2018-07-18 21:24:46 UTC
++++ CMakeLists.txt
+@@ -74,3 +74,6 @@ add_subdirectory(cpr)
+ if(BUILD_CPR_TESTS)
+     add_subdirectory(test)
+ endif()
++
++install(DIRECTORY include/cpr DESTINATION include)
++install(FILES cpr-config.cmake DESTINATION lib/cmake/cpr)

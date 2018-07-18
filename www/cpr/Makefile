@@ -22,12 +22,6 @@ GH_PROJECT=	googletest:googletest mongoose:mongoose
 GH_TAGNAME=	${PORTVERSION} 3be1ef9:googletest df9f7a7:mongoose
 GH_SUBDIR=	opt/googletest:googletest opt/mongoose:mongoose
 
-INSTALL_TARGET=	all
-
-post-stage:
-	${CP} ${WRKSRC}/lib/libcpr.a ${STAGEDIR}/${PREFIX}/lib
-	${CP} -r ${WRKSRC}/include/cpr ${STAGEDIR}/${PREFIX}/include
-	${MKDIR} ${STAGEDIR}/${PREFIX}/lib/cmake/cpr
-	${CP} ${WRKSRC}/cpr-config.cmake ${STAGEDIR}/${PREFIX}/lib/cmake/cpr
+INSTALL_TARGET=	install
 
 .include <bsd.port.mk>

@@ -1,0 +1,8 @@
+--- cpr/CMakeLists.txt.orig	2018-07-18 21:27:14 UTC
++++ cpr/CMakeLists.txt
+@@ -45,3 +45,5 @@ add_library(${CPR_LIBRARIES}
+ message(STATUS "Using CURL_LIBRARIES: ${CURL_LIBRARIES}.")
+ target_link_libraries(${CPR_LIBRARIES}
+     ${CURL_LIBRARIES})
++
++install(TARGETS ${CPR_LIBRARIES} ARCHIVE DESTINATION lib)
