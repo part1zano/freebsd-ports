@@ -14,6 +14,6 @@
  endif()
 +
 +if (BUILD_CONFIG)
-+	install(FILES contrib/cmake/cmake_work/FindConfig.cmake DESTINATION lib/cmake/config)
-+	install(FILES contrib/cmake/cmake_work/FindConfig++.cmake DESTINATION lib/cmake/config)
++	install(FILES contrib/cmake/cmake_work/FindConfig.cmake DESTINATION lib/cmake/config RENAME configConfig.cmake)
++	install(FILES contrib/cmake/cmake_work/FindConfig++.cmake DESTINATION lib/cmake/config RENAME config++Config.cmake)
 +endif()
