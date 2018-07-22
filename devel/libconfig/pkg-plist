@@ -2,3 +2,5 @@ include/libconfig.h
 include/libconfig.h++
 lib/liblibconfig.so
 lib/liblibconfig++.so
+lib/cmake/config/FindConfig.cmake
+lib/cmake/config/FindConfig++.cmake

@@ -1,0 +1,19 @@
+--- CMakeLists.txt.orig	2018-07-22 13:42:11 UTC
++++ CMakeLists.txt
+@@ -4,6 +4,7 @@ project(libconfig)
+ option(BUILD_EXAMPLES "Enable examples" ON)
+ option(BUILD_SHARED_LIBS  "Enable shared library" ON)
+ option(BUILD_TESTS "Enable tests" ON)
++option(BUILD_CONFIG "Enable cmake config" OFF)
+ 
+ set_property(GLOBAL	PROPERTY USE_FOLDERS ON)
+ 
+@@ -33,3 +34,8 @@ if(BUILD_TESTS)
+ 	add_subdirectory(tinytest)
+ 	add_subdirectory(tests)
+ endif()
++
++if (BUILD_CONFIG)
++	install(FILES contrib/cmake/cmake_work/FindConfig.cmake DESTINATION lib/cmake/config)
++	install(FILES contrib/cmake/cmake_work/FindConfig++.cmake DESTINATION lib/cmake/config)
++endif()
